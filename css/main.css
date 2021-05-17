@@ -1,0 +1,177 @@
+body{
+	background-image: url(kepek/depositphotos_24142557-stock-photo-black-textured-background.jpg);
+	background-repeat: no-repeat;/*háttérképhez*/
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Roboto',sans-serif;
+}
+*,*::before,*::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #848484;
+}
+a:link{
+	text-decoration: none;
+	text-decoration-color: none;
+}
+.menuresz{
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #000000;
+}
+.gomb:hover a{
+	color: #848484;
+}
+.gomb{
+	display: inline-block;
+	font-family: 'Roboto',sans-serif;
+	font-size: 32px;
+	margin: 5px;
+	padding: 5px;
+	color: #000000;
+
+}
+
+.gomb:hover{
+	background-clip: padding-box;
+	background-color: #FFFFFF;
+	
+	padding: 5px;
+}
+.gombaktiv{
+	background-clip: padding-box;
+	background-color: #FFFFFF;
+	color: #848484;
+	padding: 5px;
+
+}
+.gombaktiv a{
+	background-clip: padding-box;
+	background-color: #FFFFFF;
+	color: #848484;
+	padding: 5px;
+
+}
+a{
+	margin: 0;
+	padding: 0;
+	font-size: 2.5vw;
+}
+
+.menuresz a:hover{
+	background-color: #FFFFFF;
+	color: #848484;
+}
+.menu{
+	background-color:#000000;
+}
+/*kezdőlap*/
+.focim{
+	display: grid;
+	text-align: center;
+	color: #848484;
+	font-family: 'Roboto',sans-serif;
+	font-size: 5vw;
+	margin-top: 200px;
+}
+/*munkáim*/
+h4{
+	display: grid;
+	text-align: center;
+	color: #848484;
+	font-family: 'Roboto',sans-serif;
+	font-size: 3vw;
+}
+.munka{
+	display: grid;
+	grid-gap: 4rem;
+	grid-template-columns: repeat(auto-fit,minmax(42rem,1fr));
+	margin:20px;
+}
+.munkakepek{
+	display: block;
+	padding: 2vw;
+	margin: 2vw;
+	background-color: transparent;
+	border-radius: 1rem;
+	
+}
+/*rólam*/
+h2{
+	background-color: #848484;
+	color: #FFFFFF;
+	font-family: 'Roboto',sans-serif;
+	font-size: 25px;
+	margin: 0px 100px 0px 100px;
+	padding: 10px;
+}
+.rolam{
+	background-color: #848484;
+	color: #FFFFFF;
+	font-family: 'Roboto',sans-serif;
+	font-size: 15px;
+	margin: 0px 100px 0px 100px;
+	padding: 0px 200px 10px 200px;
+}
+.elerhetosegek{
+	background-color: #848484;
+	color: #FFFFFF;
+	font-family: 'Roboto',sans-serif;
+	margin: 0px 100px 0px 100px;
+	padding: 0px 100px 10px 100px;
+}
+h3{
+	background-color: #848484;
+	color: #FFFFFF;
+	font-family: 'Roboto',sans-serif;
+	font-size: 25px;
+	margin: 0px 100px 0px 100px;
+	padding: 10px;
+}
+/*weboldalterv*/
+.tervezes{
+	display: grid;
+	margin: 20px;
+}
+.weboldalkepek{
+	display: block;
+	background-color: transparent;
+	border-radius: 1rem;
+	position: absolute;left: 32vw;
+	position: absolute;right: 30vw;
+}
+h5{
+	color: #FFFFFF;
+	font-family: 'Roboto',sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 550px;
+}
+.folyamat{
+	color: #FFFFFF;
+	font-family: 'Roboto',sans-serif;
+	text-align: center;
+	margin-top:15px;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+h6{
+	color: #FFFFFF;
+	font-family: 'Roboto',sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+}
+.segitseg{
+	color: #FFFFFF;
+	font-family: 'Roboto',sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
